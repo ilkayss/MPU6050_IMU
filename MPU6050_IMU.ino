@@ -19,25 +19,26 @@ void loop() {
   sensor.getRotation(&GyroX , &GyroY , &GyroZ);
 
   Serial.print("ivme X = ");
-  Serial.println(ivmeX);
+  Serial.print(ivmeX);
 
 
-  Serial.print("ivme Y = ");
-  Serial.println(ivmeY);
+  Serial.print("| ivme Y = ");
+  Serial.print(ivmeY);
+  
 
-  Serial.print("ivme Z = ");
-  Serial.println(ivmeZ);
+  Serial.print("| ivme Z = ");
+  Serial.print(ivmeZ);
 
-  Serial.print("Gyro X = ");
-  Serial.println(GyroX);
+  Serial.print("| Gyro X = ");
+  Serial.print(GyroX);
 
-  Serial.print("Gyro Y = ");
-  Serial.println(GyroY);
+  Serial.print("| Gyro Y = ");
+  Serial.print(GyroY);
 
-  Serial.print("Gyro Z = ");
+  Serial.print("| Gyro Z = ");
   Serial.println(GyroZ);
 
- delay(1000);
+ delay(2000);
 
 
 }
